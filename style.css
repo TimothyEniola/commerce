@@ -161,8 +161,6 @@ body{
   height: 44px;
  }
 
-
-
 .drug{
     display: flex;
     justify-content: space-evenly;
@@ -183,15 +181,8 @@ body{
 .joom{
     display: none;
 }
-.joom :hover{
-    background-color: #8A8FB9;
-    transition: 3s;
-}
 .hambs{
     display: none;
-}
-.hambs :hover{
-    transform: rotate(360deg);
 }
 
 ul a{
@@ -6765,7 +6756,7 @@ margin-left: 160px;
     
     .hambs{
         display: block;
-        margin-left: -80px;
+        margin-right: 60px;
         font-size: 30px;
     }
     .drug{
@@ -6800,6 +6791,7 @@ margin-left: 160px;
         width: 100px;
         text-align: center;
         justify-content: center;
+        padding-top: 40px;
     }
     .clore {
         display: flex;
@@ -8008,8 +8000,10 @@ margin-right: 160px;
     
     .genesis{
         display: flex;
+        justify-content: center;
         gap: 50px;
         padding-bottom: 20px;
+        padding-right: 40px;
     }
     .genesis1{
         display: flex;
@@ -9519,9 +9513,7 @@ margin-right: 160px;
         display: block;
         line-height: 50px;
         font-size: 18px;
-        width: 100px;
-        text-align: center;
-        justify-content: center;
+        padding-top: 40px;
     }
     .clore {
         display: flex;
@@ -10893,10 +10885,9 @@ body{
 .joom{
     display: block;
     line-height: 50px;
-    font-size: 20px;
-        width: 80px;
-        text-align: center;
-        justify-content: center;
+    font-size: 18px;
+    margin-left: -0px;
+    padding-top: 40px;
 }
 
     .clore {
